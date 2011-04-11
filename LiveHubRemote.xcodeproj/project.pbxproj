@@ -1,0 +1,286 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2D02635813539B9E00F5CCAA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D02635713539B9E00F5CCAA /* UIKit.framework */; };
+		2D02635A13539B9E00F5CCAA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D02635913539B9E00F5CCAA /* Foundation.framework */; };
+		2D02635C13539B9E00F5CCAA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D02635B13539B9E00F5CCAA /* CoreGraphics.framework */; };
+		2D02636213539B9E00F5CCAA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2D02636013539B9E00F5CCAA /* InfoPlist.strings */; };
+		2D02636513539B9E00F5CCAA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D02636413539B9E00F5CCAA /* main.m */; };
+		2D02636813539B9E00F5CCAA /* LiveHubRemoteAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D02636713539B9E00F5CCAA /* LiveHubRemoteAppDelegate.m */; };
+		2D02636B13539B9E00F5CCAA /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2D02636913539B9E00F5CCAA /* MainWindow.xib */; };
+		2D02636E13539B9E00F5CCAA /* LiveHubRemoteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D02636D13539B9E00F5CCAA /* LiveHubRemoteViewController.m */; };
+		2D02637113539B9E00F5CCAA /* LiveHubRemoteViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2D02636F13539B9E00F5CCAA /* LiveHubRemoteViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2D02635313539B9E00F5CCAA /* LiveHubRemote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LiveHubRemote.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D02635713539B9E00F5CCAA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2D02635913539B9E00F5CCAA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2D02635B13539B9E00F5CCAA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2D02635F13539B9E00F5CCAA /* LiveHubRemote-Info.plist */ = {isa = PBXFileReference; path = "LiveHubRemote-Info.plist"; sourceTree = "<group>"; };
+		2D02636113539B9E00F5CCAA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2D02636313539B9E00F5CCAA /* LiveHubRemote-Prefix.pch */ = {isa = PBXFileReference; path = "LiveHubRemote-Prefix.pch"; sourceTree = "<group>"; };
+		2D02636413539B9E00F5CCAA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2D02636613539B9E00F5CCAA /* LiveHubRemoteAppDelegate.h */ = {isa = PBXFileReference; path = LiveHubRemoteAppDelegate.h; sourceTree = "<group>"; };
+		2D02636713539B9E00F5CCAA /* LiveHubRemoteAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LiveHubRemoteAppDelegate.m; sourceTree = "<group>"; };
+		2D02636A13539B9E00F5CCAA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		2D02636C13539B9E00F5CCAA /* LiveHubRemoteViewController.h */ = {isa = PBXFileReference; path = LiveHubRemoteViewController.h; sourceTree = "<group>"; };
+		2D02636D13539B9E00F5CCAA /* LiveHubRemoteViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LiveHubRemoteViewController.m; sourceTree = "<group>"; };
+		2D02637013539B9E00F5CCAA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/LiveHubRemoteViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2D02635013539B9E00F5CCAA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D02635813539B9E00F5CCAA /* UIKit.framework in Frameworks */,
+				2D02635A13539B9E00F5CCAA /* Foundation.framework in Frameworks */,
+				2D02635C13539B9E00F5CCAA /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2D02634813539B9D00F5CCAA = {
+			isa = PBXGroup;
+			children = (
+				2D02635D13539B9E00F5CCAA /* LiveHubRemote */,
+				2D02635613539B9E00F5CCAA /* Frameworks */,
+				2D02635413539B9E00F5CCAA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2D02635413539B9E00F5CCAA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2D02635313539B9E00F5CCAA /* LiveHubRemote.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2D02635613539B9E00F5CCAA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2D02635713539B9E00F5CCAA /* UIKit.framework */,
+				2D02635913539B9E00F5CCAA /* Foundation.framework */,
+				2D02635B13539B9E00F5CCAA /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2D02635D13539B9E00F5CCAA /* LiveHubRemote */ = {
+			isa = PBXGroup;
+			children = (
+				2D02636613539B9E00F5CCAA /* LiveHubRemoteAppDelegate.h */,
+				2D02636713539B9E00F5CCAA /* LiveHubRemoteAppDelegate.m */,
+				2D02636913539B9E00F5CCAA /* MainWindow.xib */,
+				2D02636C13539B9E00F5CCAA /* LiveHubRemoteViewController.h */,
+				2D02636D13539B9E00F5CCAA /* LiveHubRemoteViewController.m */,
+				2D02636F13539B9E00F5CCAA /* LiveHubRemoteViewController.xib */,
+				2D02635E13539B9E00F5CCAA /* Supporting Files */,
+			);
+			path = LiveHubRemote;
+			sourceTree = "<group>";
+		};
+		2D02635E13539B9E00F5CCAA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2D02635F13539B9E00F5CCAA /* LiveHubRemote-Info.plist */,
+				2D02636013539B9E00F5CCAA /* InfoPlist.strings */,
+				2D02636313539B9E00F5CCAA /* LiveHubRemote-Prefix.pch */,
+				2D02636413539B9E00F5CCAA /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2D02635213539B9E00F5CCAA /* LiveHubRemote */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D02637413539B9E00F5CCAA /* Build configuration list for PBXNativeTarget "LiveHubRemote" */;
+			buildPhases = (
+				2D02634F13539B9E00F5CCAA /* Sources */,
+				2D02635013539B9E00F5CCAA /* Frameworks */,
+				2D02635113539B9E00F5CCAA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LiveHubRemote;
+			productName = LiveHubRemote;
+			productReference = 2D02635313539B9E00F5CCAA /* LiveHubRemote.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2D02634A13539B9D00F5CCAA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "Christopher Baltzer";
+			};
+			buildConfigurationList = 2D02634D13539B9D00F5CCAA /* Build configuration list for PBXProject "LiveHubRemote" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2D02634813539B9D00F5CCAA;
+			productRefGroup = 2D02635413539B9E00F5CCAA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2D02635213539B9E00F5CCAA /* LiveHubRemote */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2D02635113539B9E00F5CCAA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D02636213539B9E00F5CCAA /* InfoPlist.strings in Resources */,
+				2D02636B13539B9E00F5CCAA /* MainWindow.xib in Resources */,
+				2D02637113539B9E00F5CCAA /* LiveHubRemoteViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2D02634F13539B9E00F5CCAA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D02636513539B9E00F5CCAA /* main.m in Sources */,
+				2D02636813539B9E00F5CCAA /* LiveHubRemoteAppDelegate.m in Sources */,
+				2D02636E13539B9E00F5CCAA /* LiveHubRemoteViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2D02636013539B9E00F5CCAA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2D02636113539B9E00F5CCAA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		2D02636913539B9E00F5CCAA /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2D02636A13539B9E00F5CCAA /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		2D02636F13539B9E00F5CCAA /* LiveHubRemoteViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2D02637013539B9E00F5CCAA /* en */,
+			);
+			name = LiveHubRemoteViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2D02637213539B9E00F5CCAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2D02637313539B9E00F5CCAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		2D02637513539B9E00F5CCAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LiveHubRemote/LiveHubRemote-Prefix.pch";
+				INFOPLIST_FILE = "LiveHubRemote/LiveHubRemote-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		2D02637613539B9E00F5CCAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LiveHubRemote/LiveHubRemote-Prefix.pch";
+				INFOPLIST_FILE = "LiveHubRemote/LiveHubRemote-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D02634D13539B9D00F5CCAA /* Build configuration list for PBXProject "LiveHubRemote" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D02637213539B9E00F5CCAA /* Debug */,
+				2D02637313539B9E00F5CCAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D02637413539B9E00F5CCAA /* Build configuration list for PBXNativeTarget "LiveHubRemote" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D02637513539B9E00F5CCAA /* Debug */,
+				2D02637613539B9E00F5CCAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2D02634A13539B9D00F5CCAA /* Project object */;
+}
