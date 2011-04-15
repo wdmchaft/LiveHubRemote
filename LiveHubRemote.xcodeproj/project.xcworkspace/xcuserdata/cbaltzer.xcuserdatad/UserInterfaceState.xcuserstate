@@ -14433,8 +14433,8 @@
 				</dict>
 			</array>
 		</dict>
-		<string>{0, 160}</string>
-		<real>324591063.463727</real>
+		<string>{0, 346}</string>
+		<real>324591326.32761401</real>
 		<dict>
 			<key>$class</key>
 			<dict>
@@ -14472,8 +14472,8 @@
 				</dict>
 			</array>
 		</dict>
-		<string>{0, 10}</string>
-		<real>324590586.543863</real>
+		<string>{0, 41}</string>
+		<real>324591403.52531701</real>
 		<dict>
 			<key>$class</key>
 			<dict>
@@ -14511,8 +14511,8 @@
 				</dict>
 			</array>
 		</dict>
-		<real>324590932.65212399</real>
-		<string>{656182, 1128}</string>
+		<real>324591385.67127198</real>
+		<string>{266044, 1185}</string>
 		<dict>
 			<key>$class</key>
 			<dict>
@@ -16216,11 +16216,11 @@
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>1104</integer>
+					<integer>1105</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>1106</integer>
+					<integer>1107</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
@@ -16265,6 +16265,42 @@
 				<integer>1102</integer>
 			</dict>
 		</dict>
+		<string>file://localhost/Users/cbaltzer/Desktop/LiveHubRemote/LiveHubRemote.xcodeproj/project.xcworkspace/xcuserdata/cbaltzer.xcuserdatad/UserInterfaceState.xcuserstate</string>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>152</integer>
+			</dict>
+			<key>NS.base</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>0</integer>
+			</dict>
+			<key>NS.relative</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>1104</integer>
+			</dict>
+		</dict>
+		<string>file://localhost/Users/cbaltzer/Desktop/LiveHubRemote/.gitignore</string>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>152</integer>
+			</dict>
+			<key>NS.base</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>0</integer>
+			</dict>
+			<key>NS.relative</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>1106</integer>
+			</dict>
+		</dict>
 		<string>file://localhost/Users/cbaltzer/Desktop/LiveHubRemote/Readme.md</string>
 		<dict>
 			<key>$class</key>
@@ -16283,42 +16319,6 @@
 				<integer>742</integer>
 			</dict>
 		</dict>
-		<dict>
-			<key>$class</key>
-			<dict>
-				<key>CF$UID</key>
-				<integer>152</integer>
-			</dict>
-			<key>NS.base</key>
-			<dict>
-				<key>CF$UID</key>
-				<integer>0</integer>
-			</dict>
-			<key>NS.relative</key>
-			<dict>
-				<key>CF$UID</key>
-				<integer>1105</integer>
-			</dict>
-		</dict>
-		<string>file://localhost/Users/cbaltzer/Desktop/LiveHubRemote/LiveHubRemote.xcodeproj/project.xcworkspace/xcuserdata/cbaltzer.xcuserdatad/UserInterfaceState.xcuserstate</string>
-		<dict>
-			<key>$class</key>
-			<dict>
-				<key>CF$UID</key>
-				<integer>152</integer>
-			</dict>
-			<key>NS.base</key>
-			<dict>
-				<key>CF$UID</key>
-				<integer>0</integer>
-			</dict>
-			<key>NS.relative</key>
-			<dict>
-				<key>CF$UID</key>
-				<integer>1107</integer>
-			</dict>
-		</dict>
-		<string>file://localhost/Users/cbaltzer/Desktop/LiveHubRemote/.gitignore</string>
 		<dict>
 			<key>$class</key>
 			<dict>
@@ -29600,7 +29600,7 @@
 			<key>documentURL</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>884</integer>
+				<integer>958</integer>
 			</dict>
 			<key>timestamp</key>
 			<dict>
@@ -29938,9 +29938,9 @@
 				</dict>
 			</array>
 		</dict>
-		<real>324591168.94744998</real>
-		<string>{0, 154}</string>
-		<string>{147, 0}</string>
+		<real>324591419.76731402</real>
+		<string>{0, 346}</string>
+		<string>{346, 0}</string>
 		<string>Xcode.IDEKit.EditorDocument.SourceCode</string>
 		<dict>
 			<key>$class</key>
