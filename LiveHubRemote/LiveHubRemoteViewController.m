@@ -186,7 +186,7 @@
 #pragma mark Animations
 -(IBAction) slideToolbarUp {
     [UIView beginAnimations:@"UIBase Hide" context:nil];
-    [UIView setAnimationDuration:0.5]; 
+    [UIView setAnimationDuration:0.35]; 
     [UIView setAnimationCurve:UIViewAnimationCurveEaseInOut];
     self.toolbar.transform = CGAffineTransformMakeTranslation(0,0);
     [UIView commitAnimations];
@@ -194,7 +194,7 @@
 
 -(IBAction) slideToolbarDown {
     [UIView beginAnimations:@"UIBase Show" context:nil];
-    [UIView setAnimationDuration:0.5]; 
+    [UIView setAnimationDuration:0.35]; 
     [UIView setAnimationCurve:UIViewAnimationCurveEaseInOut];
     self.toolbar.transform = CGAffineTransformMakeTranslation(0,60);
     [UIView commitAnimations];
