@@ -7,10 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "LiveHubRemoteViewController.h"
 
 @class LiveHubRemoteViewController;
 
 @interface LiveHubRemoteAppDelegate : NSObject <UIApplicationDelegate> {
+    UIWindow *window;
+    LiveHubRemoteViewController *viewController;
 
 }
 

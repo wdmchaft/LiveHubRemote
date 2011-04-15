@@ -16,6 +16,25 @@
 		2D02636B13539B9E00F5CCAA /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2D02636913539B9E00F5CCAA /* MainWindow.xib */; };
 		2D02636E13539B9E00F5CCAA /* LiveHubRemoteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D02636D13539B9E00F5CCAA /* LiveHubRemoteViewController.m */; };
 		2D02637113539B9E00F5CCAA /* LiveHubRemoteViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2D02636F13539B9E00F5CCAA /* LiveHubRemoteViewController.xib */; };
+		2D3AADE31354C14F00763E35 /* indent-bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D3AADDE1354C14F00763E35 /* indent-bg.png */; };
+		2D3AADE71354D83000763E35 /* control-bar.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D3AADE61354D83000763E35 /* control-bar.png */; };
+		2D3AADEB1354EA2900763E35 /* ff.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D3AADE81354EA2900763E35 /* ff.png */; };
+		2D3AADEC1354EA2900763E35 /* play.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D3AADE91354EA2900763E35 /* play.png */; };
+		2D3AADED1354EA2900763E35 /* rewind.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D3AADEA1354EA2900763E35 /* rewind.png */; };
+		2D3AADEF1354F09E00763E35 /* play-h.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D3AADEE1354F09E00763E35 /* play-h.png */; };
+		2D3AADF41354F5EF00763E35 /* ff-h.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D3AADF21354F5EF00763E35 /* ff-h.png */; };
+		2D3AADF51354F5EF00763E35 /* rewind-h.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D3AADF31354F5EF00763E35 /* rewind-h.png */; };
+		2D7BDA1B1355148200FF690E /* control-bar.psd in Resources */ = {isa = PBXBuildFile; fileRef = 2D7BDA181355148200FF690E /* control-bar.psd */; };
+		2D7BDA1C1355148200FF690E /* ff.psd in Resources */ = {isa = PBXBuildFile; fileRef = 2D7BDA191355148200FF690E /* ff.psd */; };
+		2D7BDA1D1355148200FF690E /* play.psd in Resources */ = {isa = PBXBuildFile; fileRef = 2D7BDA1A1355148200FF690E /* play.psd */; };
+		2D7BDA1F135516C600FF690E /* Commands.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2D7BDA1E135516C500FF690E /* Commands.plist */; };
+		2D7BDA231355198400FF690E /* NetworkController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D7BDA221355198400FF690E /* NetworkController.m */; };
+		2D7BDA271355492B00FF690E /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D7BDA261355492B00FF690E /* AVFoundation.framework */; };
+		2D995D831358DB75002448A8 /* Readme.md in Resources */ = {isa = PBXBuildFile; fileRef = 2D995D821358DB75002448A8 /* Readme.md */; };
+		2D995D851358DB97002448A8 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 2D995D841358DB97002448A8 /* Settings.bundle */; };
+		2DCC0BC7135574970040A828 /* silence.wav in Resources */ = {isa = PBXBuildFile; fileRef = 2DCC0BC6135574970040A828 /* silence.wav */; };
+		2DCC0BCD135582D00040A828 /* icon.psd in Resources */ = {isa = PBXBuildFile; fileRef = 2DCC0BCC135582D00040A828 /* icon.psd */; };
+		2DCC0BCF135582DB0040A828 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 2DCC0BCE135582DB0040A828 /* icon.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,16 +42,36 @@
 		2D02635713539B9E00F5CCAA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		2D02635913539B9E00F5CCAA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		2D02635B13539B9E00F5CCAA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		2D02635F13539B9E00F5CCAA /* LiveHubRemote-Info.plist */ = {isa = PBXFileReference; path = "LiveHubRemote-Info.plist"; sourceTree = "<group>"; };
+		2D02635F13539B9E00F5CCAA /* LiveHubRemote-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LiveHubRemote-Info.plist"; sourceTree = "<group>"; };
 		2D02636113539B9E00F5CCAA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		2D02636313539B9E00F5CCAA /* LiveHubRemote-Prefix.pch */ = {isa = PBXFileReference; path = "LiveHubRemote-Prefix.pch"; sourceTree = "<group>"; };
+		2D02636313539B9E00F5CCAA /* LiveHubRemote-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LiveHubRemote-Prefix.pch"; sourceTree = "<group>"; };
 		2D02636413539B9E00F5CCAA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		2D02636613539B9E00F5CCAA /* LiveHubRemoteAppDelegate.h */ = {isa = PBXFileReference; path = LiveHubRemoteAppDelegate.h; sourceTree = "<group>"; };
+		2D02636613539B9E00F5CCAA /* LiveHubRemoteAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LiveHubRemoteAppDelegate.h; sourceTree = "<group>"; };
 		2D02636713539B9E00F5CCAA /* LiveHubRemoteAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LiveHubRemoteAppDelegate.m; sourceTree = "<group>"; };
 		2D02636A13539B9E00F5CCAA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
-		2D02636C13539B9E00F5CCAA /* LiveHubRemoteViewController.h */ = {isa = PBXFileReference; path = LiveHubRemoteViewController.h; sourceTree = "<group>"; };
+		2D02636C13539B9E00F5CCAA /* LiveHubRemoteViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LiveHubRemoteViewController.h; sourceTree = "<group>"; };
 		2D02636D13539B9E00F5CCAA /* LiveHubRemoteViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LiveHubRemoteViewController.m; sourceTree = "<group>"; };
 		2D02637013539B9E00F5CCAA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/LiveHubRemoteViewController.xib; sourceTree = "<group>"; };
+		2D3AADDE1354C14F00763E35 /* indent-bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "indent-bg.png"; sourceTree = "<group>"; };
+		2D3AADE61354D83000763E35 /* control-bar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "control-bar.png"; sourceTree = "<group>"; };
+		2D3AADE81354EA2900763E35 /* ff.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ff.png; sourceTree = "<group>"; };
+		2D3AADE91354EA2900763E35 /* play.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = play.png; sourceTree = "<group>"; };
+		2D3AADEA1354EA2900763E35 /* rewind.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rewind.png; sourceTree = "<group>"; };
+		2D3AADEE1354F09E00763E35 /* play-h.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "play-h.png"; sourceTree = "<group>"; };
+		2D3AADF21354F5EF00763E35 /* ff-h.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ff-h.png"; sourceTree = "<group>"; };
+		2D3AADF31354F5EF00763E35 /* rewind-h.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "rewind-h.png"; sourceTree = "<group>"; };
+		2D7BDA181355148200FF690E /* control-bar.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = "control-bar.psd"; sourceTree = "<group>"; };
+		2D7BDA191355148200FF690E /* ff.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = ff.psd; sourceTree = "<group>"; };
+		2D7BDA1A1355148200FF690E /* play.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = play.psd; sourceTree = "<group>"; };
+		2D7BDA1E135516C500FF690E /* Commands.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Commands.plist; sourceTree = "<group>"; };
+		2D7BDA211355198400FF690E /* NetworkController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkController.h; sourceTree = "<group>"; };
+		2D7BDA221355198400FF690E /* NetworkController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkController.m; sourceTree = "<group>"; };
+		2D7BDA261355492B00FF690E /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		2D995D821358DB75002448A8 /* Readme.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Readme.md; sourceTree = "<group>"; };
+		2D995D841358DB97002448A8 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
+		2DCC0BC6135574970040A828 /* silence.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = silence.wav; sourceTree = "<group>"; };
+		2DCC0BCC135582D00040A828 /* icon.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = icon.psd; sourceTree = "<group>"; };
+		2DCC0BCE135582DB0040A828 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +79,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2D7BDA271355492B00FF690E /* AVFoundation.framework in Frameworks */,
 				2D02635813539B9E00F5CCAA /* UIKit.framework in Frameworks */,
 				2D02635A13539B9E00F5CCAA /* Foundation.framework in Frameworks */,
 				2D02635C13539B9E00F5CCAA /* CoreGraphics.framework in Frameworks */,
@@ -52,6 +92,7 @@
 		2D02634813539B9D00F5CCAA = {
 			isa = PBXGroup;
 			children = (
+				2D995D821358DB75002448A8 /* Readme.md */,
 				2D02635D13539B9E00F5CCAA /* LiveHubRemote */,
 				2D02635613539B9E00F5CCAA /* Frameworks */,
 				2D02635413539B9E00F5CCAA /* Products */,
@@ -69,6 +110,7 @@
 		2D02635613539B9E00F5CCAA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				2D7BDA261355492B00FF690E /* AVFoundation.framework */,
 				2D02635713539B9E00F5CCAA /* UIKit.framework */,
 				2D02635913539B9E00F5CCAA /* Foundation.framework */,
 				2D02635B13539B9E00F5CCAA /* CoreGraphics.framework */,
@@ -79,12 +121,12 @@
 		2D02635D13539B9E00F5CCAA /* LiveHubRemote */ = {
 			isa = PBXGroup;
 			children = (
+				2D995D841358DB97002448A8 /* Settings.bundle */,
+				2D7BDA201355195600FF690E /* Network */,
+				2D02637713539BB700F5CCAA /* UI */,
 				2D02636613539B9E00F5CCAA /* LiveHubRemoteAppDelegate.h */,
 				2D02636713539B9E00F5CCAA /* LiveHubRemoteAppDelegate.m */,
 				2D02636913539B9E00F5CCAA /* MainWindow.xib */,
-				2D02636C13539B9E00F5CCAA /* LiveHubRemoteViewController.h */,
-				2D02636D13539B9E00F5CCAA /* LiveHubRemoteViewController.m */,
-				2D02636F13539B9E00F5CCAA /* LiveHubRemoteViewController.xib */,
 				2D02635E13539B9E00F5CCAA /* Supporting Files */,
 			);
 			path = LiveHubRemote;
@@ -93,12 +135,78 @@
 		2D02635E13539B9E00F5CCAA /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				2D7BDA2813554C1100FF690E /* Audio */,
+				2D3AADDC1354C14F00763E35 /* Images */,
 				2D02635F13539B9E00F5CCAA /* LiveHubRemote-Info.plist */,
 				2D02636013539B9E00F5CCAA /* InfoPlist.strings */,
 				2D02636313539B9E00F5CCAA /* LiveHubRemote-Prefix.pch */,
 				2D02636413539B9E00F5CCAA /* main.m */,
+				2D7BDA1E135516C500FF690E /* Commands.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2D02637713539BB700F5CCAA /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				2D02636C13539B9E00F5CCAA /* LiveHubRemoteViewController.h */,
+				2D02636D13539B9E00F5CCAA /* LiveHubRemoteViewController.m */,
+				2D02636F13539B9E00F5CCAA /* LiveHubRemoteViewController.xib */,
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
+		2D3AADDC1354C14F00763E35 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				2DCC0BCE135582DB0040A828 /* icon.png */,
+				2D3AADF61354F63300763E35 /* Toolbar */,
+				2D3AADDE1354C14F00763E35 /* indent-bg.png */,
+				2D3AADDF1354C14F00763E35 /* PSD */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		2D3AADDF1354C14F00763E35 /* PSD */ = {
+			isa = PBXGroup;
+			children = (
+				2DCC0BCC135582D00040A828 /* icon.psd */,
+				2D7BDA181355148200FF690E /* control-bar.psd */,
+				2D7BDA191355148200FF690E /* ff.psd */,
+				2D7BDA1A1355148200FF690E /* play.psd */,
+			);
+			path = PSD;
+			sourceTree = "<group>";
+		};
+		2D3AADF61354F63300763E35 /* Toolbar */ = {
+			isa = PBXGroup;
+			children = (
+				2D3AADF21354F5EF00763E35 /* ff-h.png */,
+				2D3AADF31354F5EF00763E35 /* rewind-h.png */,
+				2D3AADEE1354F09E00763E35 /* play-h.png */,
+				2D3AADE81354EA2900763E35 /* ff.png */,
+				2D3AADE91354EA2900763E35 /* play.png */,
+				2D3AADEA1354EA2900763E35 /* rewind.png */,
+				2D3AADE61354D83000763E35 /* control-bar.png */,
+			);
+			name = Toolbar;
+			sourceTree = "<group>";
+		};
+		2D7BDA201355195600FF690E /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				2D7BDA211355198400FF690E /* NetworkController.h */,
+				2D7BDA221355198400FF690E /* NetworkController.m */,
+			);
+			name = Network;
+			sourceTree = "<group>";
+		};
+		2D7BDA2813554C1100FF690E /* Audio */ = {
+			isa = PBXGroup;
+			children = (
+				2DCC0BC6135574970040A828 /* silence.wav */,
+			);
+			path = Audio;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -108,9 +216,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2D02637413539B9E00F5CCAA /* Build configuration list for PBXNativeTarget "LiveHubRemote" */;
 			buildPhases = (
+				2D02635113539B9E00F5CCAA /* Resources */,
 				2D02634F13539B9E00F5CCAA /* Sources */,
 				2D02635013539B9E00F5CCAA /* Frameworks */,
-				2D02635113539B9E00F5CCAA /* Resources */,
 			);
 			buildRules = (
 			);
@@ -154,6 +262,23 @@
 				2D02636213539B9E00F5CCAA /* InfoPlist.strings in Resources */,
 				2D02636B13539B9E00F5CCAA /* MainWindow.xib in Resources */,
 				2D02637113539B9E00F5CCAA /* LiveHubRemoteViewController.xib in Resources */,
+				2D3AADE31354C14F00763E35 /* indent-bg.png in Resources */,
+				2D3AADE71354D83000763E35 /* control-bar.png in Resources */,
+				2D3AADEB1354EA2900763E35 /* ff.png in Resources */,
+				2D3AADEC1354EA2900763E35 /* play.png in Resources */,
+				2D3AADED1354EA2900763E35 /* rewind.png in Resources */,
+				2D3AADEF1354F09E00763E35 /* play-h.png in Resources */,
+				2D3AADF41354F5EF00763E35 /* ff-h.png in Resources */,
+				2D3AADF51354F5EF00763E35 /* rewind-h.png in Resources */,
+				2D7BDA1B1355148200FF690E /* control-bar.psd in Resources */,
+				2D7BDA1C1355148200FF690E /* ff.psd in Resources */,
+				2D7BDA1D1355148200FF690E /* play.psd in Resources */,
+				2D7BDA1F135516C600FF690E /* Commands.plist in Resources */,
+				2DCC0BC7135574970040A828 /* silence.wav in Resources */,
+				2DCC0BCD135582D00040A828 /* icon.psd in Resources */,
+				2DCC0BCF135582DB0040A828 /* icon.png in Resources */,
+				2D995D831358DB75002448A8 /* Readme.md in Resources */,
+				2D995D851358DB97002448A8 /* Settings.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -167,6 +292,7 @@
 				2D02636513539B9E00F5CCAA /* main.m in Sources */,
 				2D02636813539B9E00F5CCAA /* LiveHubRemoteAppDelegate.m in Sources */,
 				2D02636E13539B9E00F5CCAA /* LiveHubRemoteViewController.m in Sources */,
+				2D7BDA231355198400FF690E /* NetworkController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -213,6 +339,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -279,6 +406,7 @@
 				2D02637613539B9E00F5CCAA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

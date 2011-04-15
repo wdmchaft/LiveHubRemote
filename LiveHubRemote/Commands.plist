@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Play</key>
+	<string>p</string>
+	<key>Previous</key>
+	<string>[</string>
+	<key>Next</key>
+	<string>]</string>
+	<key>Back</key>
+	<string>T</string>
+	<key>Up</key>
+	<string>u</string>
+	<key>Down</key>
+	<string>d</string>
+	<key>Left</key>
+	<string>l</string>
+	<key>Right</key>
+	<string>r</string>
+	<key>OK</key>
+	<string>n</string>
+	<key>Home</key>
+	<string>o</string>
+	<key>Mute</key>
+	<string>M</string>
+	<key>Options</key>
+	<string>G</string>
+	<key>Power</key>
+	<string>w</string>
+</dict>
+</plist>

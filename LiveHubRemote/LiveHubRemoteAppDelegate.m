@@ -8,21 +8,26 @@
 
 #import "LiveHubRemoteAppDelegate.h"
 
-#import "LiveHubRemoteViewController.h"
+
 
 @implementation LiveHubRemoteAppDelegate
 
 
-@synthesize window=_window;
+@synthesize window; //=_window;
 
-@synthesize viewController=_viewController;
+@synthesize viewController; //=_viewController;
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
      
-    self.window.rootViewController = self.viewController;
+    //self.window.rootViewController = self.viewController;
+    [self.window addSubview:viewController.view];
     [self.window makeKeyAndVisible];
+    return YES;
+}
+
+-(BOOL)canBecomeFirstResponder {
     return YES;
 }
 
@@ -67,8 +72,8 @@
 
 - (void)dealloc
 {
-    [_window release];
-    [_viewController release];
+    [window release];
+    [viewController release];
     [super dealloc];
 }
 
