@@ -27,5 +27,10 @@ Screenshot
 
 ![LiveHubRemote](http://github.com/cbaltzer/LiveHubRemote/raw/master/screenshot.png)
 
+License
+-------
 
+![cc-nc-sa](http://i.creativecommons.org/l/by-nc-sa/3.0/80x15.png) 
+
+This code is licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License.](http://creativecommons.org/licenses/by-nc-sa/3.0/)
 
