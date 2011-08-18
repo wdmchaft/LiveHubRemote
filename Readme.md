@@ -14,8 +14,6 @@ Features
 * Standard play/pause, forward/back controls, and more
 * Uses iPod controls when screen is locked! 
 
-![LiveHubRemote](http://github.com/cbaltzer/LiveHubRemote/raw/master/screenshot.png)
-
 No App Store?
 -------------
 
@@ -24,7 +22,10 @@ This feature will almost certainly cause the app to be rejected from the
 App Store, so I'm not submitting it at this time. In the future I may try my
 luck, or submit a version with the iPod controls cut out. 
 
+Screenshot
+----------
 
+![LiveHubRemote](http://github.com/cbaltzer/LiveHubRemote/raw/master/screenshot.png)
 
 
 
